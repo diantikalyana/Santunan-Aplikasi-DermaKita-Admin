@@ -1,12 +1,74 @@
-# React + Vite
+🏛️ Santunan-Aplikasi DermaKita Admin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi Santunan-Aplikasi DermaKita Admin adalah platform berbasis web untuk mengelola data santunan, donasi, penerima bantuan, artikel, dokumentasi, dan laporan penyaluran. Dibangun dengan React, Vite, dan Tailwind CSS, aplikasi ini dirancang untuk cepat, responsif, dan mudah digunakan oleh admin.
 
-Currently, two official plugins are available:
+✨ Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dashboard: Menampilkan ringkasan data dan statistik santunan.
 
-## Expanding the ESLint configuration
+Manajemen Admin: CRUD data admin.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Donasi: Kelola data donasi dan detailnya.
+
+Artikel: Tambah, edit, hapus, dan lihat detail artikel.
+
+Data Anak Yatim: Lihat detail, ajukan bantuan, dan kelola data penerima.
+
+Dokumentasi: Kelola dokumentasi umum dan khusus.
+
+Laporan Penyaluran: Rekap dan kelola data penyaluran bantuan.
+
+Notifikasi: Sistem pemberitahuan untuk admin.
+
+Profil Admin: Lihat dan edit profil akun admin.
+
+Autentikasi: Login aman dengan proteksi route.
+
+📂 Struktur Folder Penting
+
+public/icons → Ikon notifikasi & user.
+
+src/assets → Logo dan gambar artikel.
+
+src/components → Navbar, Sidebar, Layout, Modal.
+
+src/pages → Halaman utama aplikasi (Dashboard, Login, dll).
+
+src/routes → Konfigurasi routing.
+
+src/utils → Konfigurasi axios untuk API.
+
+🚀 Instalasi & Menjalankan Proyek
+
+1️⃣ Clone repository
+
+git clone https://github.com/diantikalyana/Santunan-Aplikasi-DermaKita-Admin.git
+cd Santunan-Aplikasi-DermaKita-Admin
+
+2️⃣ Install dependencies
+
+npm install
+
+3️⃣ Jalankan aplikasi di mode pengembangan
+
+npm run dev
+
+Akses di browser: http://localhost:5173
+
+4️⃣ Build untuk produksi
+
+npm run build
+
+🛠 Teknologi yang Digunakan
+
+React + Vite
+
+Tailwind CSS
+
+Axios
+
+📬 Kontak
+
+📧 Email: (vinawidiantip25@gmail.com)
+🌐 Website: (opsional)
+
